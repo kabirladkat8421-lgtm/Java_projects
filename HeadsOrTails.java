@@ -7,7 +7,7 @@ import java.util.Random;
 public class HeadsOrTails extends Thread {
 
 	private static Object thread;
-
+        //May improve in future
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		Random random = new Random();
