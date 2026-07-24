@@ -17,9 +17,8 @@ public class HeadsOrTails extends Thread {
 		System.out.println("HEADS OR TAILS..??");
 		String Flip = sc.nextLine();
 
-		Thread.sleep(5000);
-
 		boolean coin = random.nextBoolean();
+		Thread.sleep(5000);
 		if (coin) {
 			System.out.println("It's HEADS");
 		} else {
